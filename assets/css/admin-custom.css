@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+#wpcontent {
+	background-color: #f0f0f1;
+}
+.dataTables_info,
+.dataTables_paginate {
+	margin-top: 20px !important;
+}
+.countdown-title {
+	padding-right: 15px;
+	text-transform: uppercase;
+}
+.countdown-content tr:nth-child(even) {
+	background: #f7f7f7;
+}
+.countdown-tab .nav-tab{
+	float: left;
+	border: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-left: 0.5em;
+	padding: 5px 15px;
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.5;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.countdown-tab .nav-tab:first-child{
+	margin-left: 0;
+}
+.countdown-tab .nav-tab-active {
+	background: #fff !important;
+	color: #3c434a;
+}
+.dataTable.countdown-table {
+	width: 100%;
+	background: #fff;
+	margin-top: 20px !important;
+}
+.countdown-title h1 {
+	margin: 50px 0 10px 0;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+.countdown-notice {
+	font-size: 14px;
+	font-weight: 600;
+}
+.countdown-notice span {
+	color: #ed6663;
+}
+.countdown-tab {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	width: 98%;
+}
+.countdown-tab a p {
+	float: left;
+	margin: 0;
+	padding: 2px 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+	outline: none;
+}
+.countdown-content {
+	display: none;
+	border: 1px solid #ccc;
+	border-top: none;
+	width: 99%;
+	padding: 40px 30px;
+	background-color: #fff;
+	box-shadow: 1px 1px 7px 2px
+	rgba(221, 221, 221, .6);
+}
+.countdown-table .sidebar-title,
+.countdown-table .slider-title {
+	width: 120px;
+}
+.countdown-table img {
+	width: 100%;
+}
+.countdown-function.button {
+  background: #d9534f;
+  border: 0px;
+  padding: 5px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+	border-radius: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.countdown-function.button:active,
+.countdown-function.button:focus,
+.countdown-function.button:hover {
+	box-shadow: none;
+  background: #bf211d;
+}
+/* =========Modal Button========= */
+.modal-dialog-centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+}
+.modal-content {
+	padding: 15px 20px;
+}
+.modal-body span{
+	font-size: 18px;
+}
+.modal-body p {
+	font-size: 28px;
+	font-weight: 600;
+}
+.modal-footer a:focus,
+.modal-footer a:active,
+.modal-footer a:hover {
+	box-shadow: none;
+  text-decoration: none;
+}
+.modal-footer .cancel.btn,
+.modal-footer .delete.btn {
+  padding: 15px;
+}
+.modal-footer .delete a {
+  color: #fff;
+}
+.modal-footer .cancel a {
+	color: #505050;
+}
+.modal-footer .delete.btn:hover {
+	background-color: #bf211d;
+	transition: 0.5s;
+}
+.modal-footer .cancel.btn:hover {
+  background-color: #c2c2c2;
+	transition: 0.5s;
+}
+.modal-footer .delete {
+  background-color: #bf5555;
+}
+.modal-footer .cancel {
+  background-color: #d9d9d9;
+}
+/* TABLE STYLE - General */
+.countdown-tab .ongoing.nav-tab{
+	background: #5cb85c;
+}
+.countdown-tab .expired.nav-tab{
+	background: #d9534f;
+}
+.countdown-tab .reminder.nav-tab{
+	background: #f0ad4e;
+}
+.countdown-tab .ongoing.nav-tab-active {
+	border-top: 5px solid #5cb85c;
+}
+.countdown-tab .expired.nav-tab-active {
+	border-top: 5px solid #d9534f;
+}
+.countdown-tab .reminder.nav-tab-active {
+	border-top: 5px solid #f0ad4e;
+}
+/* Table Filter */
+.table-filter {
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+}
+.table-filter tbody tr:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+.table-filter tbody tr td {
+	vertical-align: middle !important;
+	height: 50px;
+	padding: 10px !important;
+	border-top-color: #eee;
+}
+.dataTables_empty,
+.countdown-content table thead th {
+	font-size: 16px;
+	font-weight: 600;
+}
+.dataTables_length {
+	font-size: 16px;
+}
+.dataTables_length select {
+	width: 100px !important;
+	height: 40px !important;
+}
+.dataTables_filter label {
+	font-size: 16px;
+}
+.dataTables_filter input {
+	padding: 20px;
+}
+.table-filter tbody td {
+	color: #505050;
+	font-size: 14px;
+}
+.countdown-content thead th:first-child {
+	width: 8%;
+}
+.countdown-content thead th:nth-child(2) {
+	width: 35%;
+}
+.countdown-content thead th:nth-child(3),
+.countdown-content thead th:nth-child(4) {
+	width: 13%;
+}
+.countdown-content thead th:last-child {
+	width: 15%;
+}
+.empty-data,
+.action-button {
+	text-align: center;
+}
+/* Media screen for SP */
+@media screen and (max-width: 1200px){
+	.dataTables_wrapper {
+		width: 1500px;
+	}
+}
+@media screen and (max-width: 991px){
+	.countdown-title {
+		width: 81%;
+	}
+	.countdown-content{
+		width: 98%;
+	}
+}
+@media screen and (max-width:767px){
+	.countdown-tab {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.countdown-tab .nav-tab {
+		margin: 5px 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+	.countdown-tab .ongoing.nav-tab-active {
+		border-left: 5px solid #5cb85c;
+	}
+	.countdown-tab .expired.nav-tab-active {
+		border-left: 5px solid #d9534f;
+	}
+	.countdown-tab .reminder.nav-tab-active {
+		border-left: 5px solid #f0ad4e;
+	}
+	.countdown-tab .ongoing.nav-tab-active,
+	.countdown-tab .reminder.nav-tab-active,
+	.countdown-tab .expired.nav-tab-active {
+		border-top: none;
+	}
+	.countdown-tab .nav-tab-active {
+		border-top: 0;
+		border-right: 0;
+	}
+	.countdown-content {
+		margin-top: 20px;
+		width: 98%;
+	}
+	.countdown-title h1 {
+		margin: 20px 10px 10px 0;
+		font-size: 22px;
+	}
+	.countdown-title p {
+		margin: 5px 10px 15px 0;
+	}
+}
+
+
+/* hide optgrp */
+select optgroup{
+	visibility: visible;
+	position: relative !important;
+	top: -25px;
+	left: -23px;
+	color: transparent;
+	width: 50%;
+}
+
+option{
+	visibility: visible;
+	position: absolute !important;
+	color: #3c434a;
+}
+
+/* show option */
+
+
+.AClass{
+    position: absolute;
+	border-radius: 10px;
+	border: 0;
+	cursor: pointer;
+	z-index: 999999;
+}
+
+.sidebanner{
+	background-color: rgba(51, 51, 51, 0);
+	overflow: auto;
+	white-space: nowrap;
+	width: 300px;
+}
+
+.sidebanner .imgbanner{
+	display: inline-block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
